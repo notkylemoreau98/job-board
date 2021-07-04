@@ -1,0 +1,20 @@
+$primViolet: #5964e0;
+$primLightViolet: #939bf4;
+$primDarkBlue: #19202d;
+$primMidnight: #121721;
+
+$secWhite: #ffffff;
+$secLightGray: #f4f6f8;
+$secGray: #9daec2;
+$secDarkGray: #6e8098;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: $secLightGray;
+  padding-top: 5rem;
+}

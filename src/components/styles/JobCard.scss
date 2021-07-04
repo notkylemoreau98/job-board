@@ -1,0 +1,61 @@
+@import "App.scss";
+
+.card {
+  width: 350px;
+  height: 228px;
+  border: 1px solid black;
+
+  .card__logo {
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    border-radius: 16px;
+    background-position: center;
+    background-color: blue;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10%;
+    left: 1.5rem;
+  }
+
+  .card__location a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.card__text {
+  position: relative;
+  top: -10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.25rem 1.25rem;
+
+  .text__postingSpecs {
+    display: flex;
+    align-items: center;
+    color: $secDarkGray;
+
+    span {
+      font-size: 2rem;
+    }
+
+    .text__postingSpec {
+      padding-right: 0.5rem;
+    }
+  }
+
+  .text__company {
+    color: $secDarkGray;
+    padding: 0.75rem 0;
+  }
+}
