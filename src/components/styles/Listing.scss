@@ -1,0 +1,98 @@
+@import "App.scss";
+@import "mixins.scss";
+
+.listing {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15rem;
+
+  .listing__top {
+    height: 20vh;
+    background-color: $secWhite;
+    display: flex;
+    border-radius: 4px;
+    width: 100%;
+
+    .listing__topImage {
+      width: 12vw;
+      background-color: orange;
+    }
+
+    .listing__topContent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0 2.25rem;
+
+      button {
+        @include button(rgba(89, 100, 224, 0.1), $primViolet);
+      }
+
+      .topContent__text {
+        h3 {
+          font-size: 1.5rem;
+          padding-bottom: 0.5rem;
+        }
+
+        p {
+          text-transform: lowercase;
+          color: $secDarkGray;
+          padding-top: 0.25rem;
+        }
+      }
+    }
+  }
+
+  .listing__info {
+    background-color: $secWhite;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0 2.25rem;
+
+    .info__title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem 0;
+
+      .title__text {
+        .text__postingSpecs {
+          display: flex;
+          align-items: center;
+          color: $secDarkGray;
+
+          span {
+            font-size: 2rem;
+          }
+
+          .text__postingSpec {
+            padding-right: 0.5rem;
+          }
+        }
+
+        .text__title {
+          font-size: 1.75rem;
+        }
+
+        .text__location {
+          color: $primViolet;
+          font-weight: 700;
+          margin-top: 0.5rem;
+        }
+      }
+    }
+
+    button {
+      @include button($primViolet, $secWhite);
+    }
+  }
+}
+
+.listing__footer {
+  background-color: $secWhite;
+  margin-top: 2rem;
+  width: 98.65vw;
+}

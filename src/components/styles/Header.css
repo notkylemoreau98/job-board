@@ -13,4 +13,10 @@ body {
 .app {
   background-color: #f4f6f8;
 }
-/*# sourceMappingURL=App.css.map */
+
+.header {
+  height: 18vh;
+  background-color: #5964e0;
+  background-image: url("./assets//desktop/bg-pattern-header.svg");
+}
+/*# sourceMappingURL=Header.css.map */

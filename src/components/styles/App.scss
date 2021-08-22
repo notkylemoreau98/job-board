@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap");
+
 $primViolet: #5964e0;
 $primLightViolet: #939bf4;
 $primDarkBlue: #19202d;
@@ -14,7 +16,10 @@ $secDarkGray: #6e8098;
   padding: 0;
 }
 
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
 .app {
   background-color: $secLightGray;
-  padding-top: 5rem;
 }

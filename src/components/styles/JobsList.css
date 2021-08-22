@@ -1,0 +1,9 @@
+.jobList {
+  padding: 3rem 5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+/*# sourceMappingURL=JobsList.css.map */

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,wFAAI;AAYZ,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,wBAAwB;CACtC;;AAED,AAAA,IAAI,CAAC;EACH,gBAAgB,EAfH,OAAO;CAgBrB;;ADtBD,AAAA,OAAO,CAAC;EACN,MAAM,EAAE,IAAI;EACZ,gBAAgB,ECFL,OAAO;EDGlB,gBAAgB,EAAE,8CAA8C;CACjE",
+    "sources": [
+        "Header.scss",
+        "App.scss"
+    ],
+    "names": [],
+    "file": "Header.css"
+}

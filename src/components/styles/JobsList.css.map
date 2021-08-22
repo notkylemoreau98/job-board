@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,SAAS;EAClB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EACrC,aAAa,EAAE,MAAM;CACtB",
+    "sources": [
+        "JobsList.scss"
+    ],
+    "names": [],
+    "file": "JobsList.css"
+}
